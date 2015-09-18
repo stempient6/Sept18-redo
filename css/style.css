@@ -1,0 +1,77 @@
+li{
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    list-style: none;
+
+}
+
+.title {
+color: white;
+background-color: #434242  ;
+}
+.active {
+color: white;
+background-color: #434242  ;
+}
+.added {
+color: white;
+background-color:  #646262  ;
+}
+.hover{
+color: white;
+background-color: #A7A4A4  ;
+}
+.selected {
+color: black;
+background-color:  #D3D2D2  ;
+}
+.success {
+color: black;
+background-color:  #E9E8E8  ;
+}
+.error {
+color: black;
+background-color: #F2F1F1  ;
+}
+
+.base{
+color: black;
+background-color:  #D3D2D2  ;
+}
+
+.minus{
+    box-sizing:border-box;
+ text-shadow:
+  -1px -1px 0 #474747  ,  
+   1px -1px 0 #474747  ,
+   -1px 1px 0 #474747  ,
+    1px 1px 0 #474747  ;
+ padding-right: 2px;
+ line-height: 1;
+ float:left;
+ height: 80%;
+ width: 60px;
+ margin: 5px 10px;
+ font-size: 130%;
+ background-color: #b6b6b6 ;
+ border: 1px solid black;
+ border-radius: 10%;
+}
+.closed {
+ background-color: #818181 ;
+ height: 0px;
+ overflow: hidden;
+ border: none;
+}
+
+.open {
+ color:#f0f0f0 ;
+ background-color: #d1d1d1  ;
+ height: 145px;
+ overflow: hidden;
+ border: 2px solid black;
+ line-height: normal;
+ text-align: center;
+ padding: 10px;
+}
